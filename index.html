@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/prefixfree.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <fieldset style="width: 400px; margin: auto; margin-top: 200px;">
+        <form action="index.html" method="post">
+            <table id="tabela">
+                <tr>
+                    <td class="label"><label for="nome">Nome:</label></td>
+                    <td><input type="text" name="nome" id="nome" required></td>
+                </tr>
+                <tr>
+                    <td class="label"><label for="emal">E-Mail:</label></td>
+                    <td><input type="email" name="emal" id="emal" required></td>
+                </tr>
+                <tr>
+                    <td class="label"><label for="deseja">Deseja receber boletins?</label></td>
+                    <td><input type="checkbox" name="deseja" id="deseja"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button type="submit">Salvar</button></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+</body>
+</html>
