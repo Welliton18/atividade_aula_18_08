@@ -1,3 +1,14 @@
 .label {
     text-align: right;
 }
+
+#div_span {
+    height: 30px;
+    background-color: silver;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#div_span.span {
+    margin-top: 5px;
+}
