@@ -9,6 +9,34 @@
     margin-bottom: 10px;
 }
 
-#div_span.span {
+#div_span span {
     margin-top: 5px;
+}
+
+#menu {
+    background: orange;
+    display: flex;
+    width: 100%;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    font: 13px verdana, arial, tahoma, sans-serif;
+    color: #000;
+    background: orange;
+    text-decoration: none;
+    padding: 15px;
+    margin-left: 1px;
+}
+
+#menu ul li a:hover {
+    color: orange;
+    background:#000;
 }
